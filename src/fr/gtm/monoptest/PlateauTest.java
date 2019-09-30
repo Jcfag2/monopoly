@@ -16,15 +16,20 @@ public class PlateauTest {
 		int cnt = 0;
 		Case c = test.getCaseDepart();
 
-		System.out.println(c.getNomCase());
+		
 
 		while (c.getNext() != test.getCaseDepart()) {
+			System.out.println(c.getNomCase());
+			System.out.println(c);
 			c = c.getNext();
 			cnt = cnt + 1;
-			System.out.println(cnt);
+			
 		}
+		cnt = cnt+1;
+		System.out.println(c.getNomCase());
+		System.out.println(c);
 
-		assertEquals(39, cnt);
+		assertEquals(40, cnt);
 
 	}
 

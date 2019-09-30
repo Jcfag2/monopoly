@@ -29,7 +29,7 @@ public class Plateau {
 	public Case getCaseDepart() {
 
 		Case depart = casesMonop.get(0);
-		System.out.println(depart);
+		//System.out.println(depart);
 		return depart;
 
 	}
