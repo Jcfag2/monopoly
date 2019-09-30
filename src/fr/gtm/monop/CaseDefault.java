@@ -1,5 +1,6 @@
 package fr.gtm.monop;
 //
-public class CaseDefault {
-//lel2
+public class CaseDefault extends Case {
+	
+	
 }
