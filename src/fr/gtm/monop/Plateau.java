@@ -13,23 +13,29 @@ public class Plateau {
 
 	public void initialisationPlateau() {
 		int i;
-		
-		for (i = 1; i <= 40; i = i + 1) {
-			casesMonop.add(new CaseDefault(Integer.toString(i), null, null));
-			
+
+		casesMonop.add(new CaseDepart("Case départ", null, null));
+		for (i = 1; i <= 3; i = i + 1) {
+			casesMonop.add(new CaseDefault(Integer.toString(i+1), null, null));
 		}
+		casesMonop.add(new CaseImpots("Impots sur le revenu", null, null));
+		for (i = 1; i <= 33; i = i + 1) {
+			casesMonop.add(new CaseDefault(Integer.toString(i+5), null, null));
+		}
+		casesMonop.add(new CaseTaxeDeLuxe("Taxe de luxe", null, null));
+		casesMonop.add(new CaseDefault("40", null, null));
 		
-		for (i = 0; i<=38; i = i+1) {
-			casesMonop.get(i).setNext(casesMonop.get(i+1));
+		for (i = 0; i <= 38; i = i + 1) {
+			casesMonop.get(i).setNext(casesMonop.get(i + 1));
 		}
 		casesMonop.get(39).setNext(casesMonop.get(0));
-		
+
 	}
 
 	public Case getCaseDepart() {
 
 		Case depart = casesMonop.get(0);
-		//System.out.println(depart);
+		// System.out.println(depart);
 		return depart;
 
 	}

@@ -8,13 +8,13 @@ public class CaseDefault extends Case {
 	}
 
 	@Override
-	public void arreter() {
+	public void arreter(Joueur j) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void passer() {
+	public void passer(Joueur j) {
 		// TODO Auto-generated method stub
 		
 	}

@@ -10,10 +10,10 @@ public class Monopoly {
 	De d2;
 
 	public void addJoueur() {
-		joueurs.add(new Joueur("Tom", 1500, new Pion("Sac d'argent")));
-		joueurs.add(new Joueur("Tim", 1500, new Pion("Chaussure")));
-		joueurs.add(new Joueur("Tam", 1500, new Pion("Cuirassé")));
-		joueurs.add(new Joueur("Tem", 1500, new Pion("Dé à coudre")));
+		joueurs.add(new Joueur("Hubert Bonisseur de la Bath", 1500, new Pion("Sac d'argent")));
+		joueurs.add(new Joueur("Noel Flantier", 1500, new Pion("Chaussure")));
+		joueurs.add(new Joueur("Perceval", 1500, new Pion("Cuirassé")));
+		joueurs.add(new Joueur("Karadoc", 1500, new Pion("Dé à coudre")));
 	}
 
 	public void Jouer() {
@@ -30,10 +30,12 @@ public class Monopoly {
 		for (int i = 0; i < 10; i = i + 1) {
 			System.out.println("Tour numéro " + (i+1));
 			System.out.println("");
+			System.out.println("");
 			
 			for (Joueur j : joueurs) {
 				j.jouer(d1, d2);
 			}
+			System.out.println("");
 			System.out.println("");
 			System.out.println("");
 			System.out.println("");

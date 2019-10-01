@@ -21,14 +21,14 @@ public class PlateauTest {
 		
 
 		while (c.getNext() != test.getCaseDepart()) {
-			//System.out.println(c.getNomCase());
+			System.out.println(c.getNomCase());
 			//System.out.println(c);
 			c = c.getNext();
 			cnt = cnt + 1;
 			
 		}
 		cnt = cnt+1;
-		//System.out.println(c.getNomCase());
+		System.out.println(c.getNomCase());
 		//System.out.println(c);
 
 		assertEquals(40, cnt);

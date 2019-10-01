@@ -34,6 +34,6 @@ public abstract class Case {
 		return nomCase;
 	}
 	
-	public abstract void arreter();
-	public abstract void passer();
+	public abstract void arreter(Joueur j);
+	public abstract void passer(Joueur j);
 }
