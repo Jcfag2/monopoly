@@ -12,6 +12,15 @@ public class Case {
 		this.next = next;
 	}
 
+	
+	
+	@Override
+	public String toString() {
+		return "Case [nomCase=" + nomCase + "]";
+	}
+
+
+
 	public Case getNext() {
 		return next;
 	}
