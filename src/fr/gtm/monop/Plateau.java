@@ -15,7 +15,7 @@ public class Plateau {
 		int i;
 		
 		for (i = 1; i <= 40; i = i + 1) {
-			casesMonop.add(new Case(Integer.toString(i), null, null));
+			casesMonop.add(new CaseDefault(Integer.toString(i), null, null));
 			
 		}
 		

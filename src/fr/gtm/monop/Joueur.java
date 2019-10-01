@@ -13,6 +13,13 @@ public class Joueur {
 		this.pionDuJoueur = pionDuJoueur;
 	}
 
+	public int crediter(int montant) {
+		return solde;
+	}
+	public int debiter(int montant) {
+		return solde;
+	}
+	
 	public void jouer(De d1, De d2) {
 		Case old = pionDuJoueur.getPositionSurPlateau();
 		Case p = pionDuJoueur.getPositionSurPlateau();

@@ -7,6 +7,18 @@ public class CaseDefault extends Case {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void arreter() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void passer() {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 	
 	

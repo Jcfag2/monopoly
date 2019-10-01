@@ -13,7 +13,10 @@ public Case getPositionSurPlateau() {
 }
 
 
-
+public void avancerPion(Case c) {
+	setPositionSurPlateau(c.next);
+	c = getPositionSurPlateau();
+}
 
 public void setPositionSurPlateau(Case positionSurPlateau) {
 	this.positionSurPlateau = positionSurPlateau;

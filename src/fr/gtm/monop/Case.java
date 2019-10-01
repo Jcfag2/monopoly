@@ -1,6 +1,6 @@
 package fr.gtm.monop;
 
-public class Case {
+public abstract class Case {
 	String nomCase;
 	String couleurCase;
 	Case next;
@@ -33,5 +33,7 @@ public class Case {
 	public String getNomCase() {
 		return nomCase;
 	}
-
+	
+	public abstract void arreter();
+	public abstract void passer();
 }
