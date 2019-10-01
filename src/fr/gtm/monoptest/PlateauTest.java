@@ -12,9 +12,11 @@ public class PlateauTest {
 	@Test
 	public void testInitialisationPlateau() {
 		Plateau test = new Plateau();
+		assertNotNull(test);
 		test.initialisationPlateau();
 		int cnt = 0;
 		Case c = test.getCaseDepart();
+		assertNotNull(c);
 
 		
 
