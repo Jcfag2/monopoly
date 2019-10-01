@@ -21,6 +21,14 @@ public class Joueur {
 		solde = solde - montant;
 	}
 
+	public boolean isInterresse(int prix) {
+		if (Joueur.this.solde > prix) {
+			return true;
+		}
+		return false;
+		
+	}
+	
 	public void jouer(De d1, De d2) {
 		d1.lancer();
 		d2.lancer();
