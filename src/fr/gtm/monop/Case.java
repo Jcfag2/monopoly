@@ -30,6 +30,12 @@ public abstract class Case {
 	}
 
 
+	public String getCouleurCase() {
+		return couleurCase;
+	}
+
+
+
 	public String getNomCase() {
 		return nomCase;
 	}
