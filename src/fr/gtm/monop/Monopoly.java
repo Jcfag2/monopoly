@@ -28,10 +28,10 @@ public class Monopoly {
 		}
 
 		for (int i = 0; i < 10; i = i + 1) {
-			System.out.println("Tour numéro " + (i+1));
+			System.out.println("Tour numéro " + (i + 1));
 			System.out.println("");
 			System.out.println("");
-			
+
 			for (Joueur j : joueurs) {
 				j.jouer(d1, d2);
 			}

@@ -7,14 +7,14 @@ public class CaseDepart extends Case {
 	}
 	@Override
 	public void arreter(Joueur j) {
-		j.solde = j.solde + 400;
+		j.crediter(400);
 		System.out.println(j.nomJoueur + " s'arrete sur la case depart et touche 400 euros");
 		System.out.println(j.nomJoueur + " a maintenant " + j.solde + " euros");
 		System.out.println("");
 	}
 	@Override
 	public void passer(Joueur j) {
-		j.solde = j.solde + 200;
+		j.crediter(200);
 		System.out.println(j.nomJoueur + " passe par la case départ et touche 200 euros");
 		System.out.println(j.nomJoueur + " a maintenant " + j.solde + " euros");
 		System.out.println("");
