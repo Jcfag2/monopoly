@@ -39,11 +39,13 @@ public class Monopoly {
 			for (Joueur j : joueurs) {
 				if (j.joue == false) {
 					System.out.println(j.nomJoueur + " est éliminé");
+					System.out.println("");
 
 				} else {
 					j.jouer(d1, d2);
 					if (j.solde < 0) {
 						System.out.println(j.nomJoueur + " n'a plus d'argent, il est éliminé");
+						System.out.println("");
 						j.joue = false;
 						nbJoueurs = nbJoueurs - 1;
 					}

@@ -25,7 +25,7 @@ public class Plateau {
 	}
 
 	public void InitialisationPlateauFichier()
-			throws IOException, InstantiationException, IllegalAccessException, ClassNotFoundException {
+			throws IOException, InstantiationException, Exception {
 		// lire ligne à ligne le fichier monopoly.txt
 		// recupérer
 		// champ avec numéro de la case (/!\1 à 40)
