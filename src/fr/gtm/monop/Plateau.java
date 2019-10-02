@@ -47,7 +47,7 @@ for(i=0; i<=39; i=i+1) {
 	break;
 	case 15 : casesMonop.add(new CaseGare("Gare de Lyon", null, null, 200, 20, null));
 	break;
-	case 16 : casesMonop.add(new CaseRue("Avenue de Mozart", "Orange", null, 180, 18, null));
+	case 16 : casesMonop.add(new CaseRue("Avenue Mozart", "Orange", null, 180, 18, null));
 	break;
 	case 17 : casesMonop.add(new CaseDefault("Caisse de Communauté", null, null));
 	break;
