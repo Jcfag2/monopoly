@@ -2,6 +2,8 @@ package fr.gtm.monoptest;
 
 import static org.junit.Assert.*;
 
+import java.io.IOException;
+
 import org.junit.Test;
 
 import fr.gtm.monop.Case;
@@ -10,7 +12,7 @@ import fr.gtm.monop.Plateau;
 public class PlateauTest {
 
 	@Test
-	public void testInitialisationPlateau() {
+	public void testInitialisationPlateau() throws InstantiationException, IllegalAccessException, ClassNotFoundException, IOException {
 		Plateau test = new Plateau();
 		assertNotNull(test);
 		test.initialisationPlateau();

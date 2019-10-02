@@ -14,5 +14,7 @@ public abstract class CasePropriete extends Case {
 		this.proprietaire = proprietaire;
 	}
 
-
+	public CasePropriete() {
+		// TODO Auto-generated constructor stub
+	}
 }

@@ -5,6 +5,10 @@ public class CaseTaxeDeLuxe extends Case{
 	public CaseTaxeDeLuxe(String nomCase, String couleurCase, Case next) {
 		super(nomCase, couleurCase, next);
 	}
+	
+	public CaseTaxeDeLuxe() {
+		// TODO Auto-generated constructor stub
+	}
 	@Override
 	public void arreter(Joueur j) {
 		System.out.println(j.nomJoueur + " s'arrete sur la case Taxe de luxe et paye 100 euros");

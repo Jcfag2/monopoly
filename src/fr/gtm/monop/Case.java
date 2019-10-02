@@ -11,6 +11,10 @@ public abstract class Case {
 		this.couleurCase = couleurCase;
 		this.next = next;
 	}
+	
+	public Case() {
+		// TODO Auto-generated constructor stub
+	}
 
 	
 	

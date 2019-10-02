@@ -6,7 +6,10 @@ public class CaseDefault extends Case {
 		super(nomCase, couleurCase, next);
 		// TODO Auto-generated constructor stub
 	}
-
+	public CaseDefault() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	@Override
 	public void arreter(Joueur j) {
 		// TODO Auto-generated method stub

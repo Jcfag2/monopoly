@@ -5,12 +5,14 @@ public class Joueur {
 	int solde;
 	Pion pionDuJoueur;
 	Monopoly monop;
+	boolean joue;
 
-	public Joueur(String nomJoueur, int solde, Pion pionDuJoueur) {
+	public Joueur(String nomJoueur, int solde, Pion pionDuJoueur, boolean joue) {
 		super();
 		this.nomJoueur = nomJoueur;
 		this.solde = solde;
 		this.pionDuJoueur = pionDuJoueur;
+		this.joue = joue;
 	}
 
 	public void crediter(int montant) {

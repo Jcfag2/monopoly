@@ -24,10 +24,10 @@ public class Pion {
 		}
 
 		int tot = d1.getValeur() + d2.getValeur();
-		System.out.println(joueurDuPion.nomJoueur + " lance les dés et obtient " + d1.valeur + " et " + d2.valeur);
+		System.out.println(joueurDuPion.nomJoueur + " lance les dÃ©s et obtient " + d1.valeur + " et " + d2.valeur);
 		System.out.println("");
-		System.out.println("Il se déplace de " + tot + " cases");
-		System.out.println(joueurDuPion.nomJoueur + " était sur la case " + old.nomCase
+		System.out.println("Il se dÃ©place de " + tot + " cases");
+		System.out.println(joueurDuPion.nomJoueur + " Ã©tait sur la case " + old.nomCase
 				+ ", il est maintenant sur la case " + p.nomCase);
 		System.out.println("");
 
