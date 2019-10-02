@@ -39,7 +39,7 @@ for(i=0; i<=39; i=i+1) {
 	break;
 	case 11 : casesMonop.add(new CaseRue("Boulevard de la Villette", "Violet", null, 140, 14, null));
 	break;
-	case 12 : casesMonop.add(new CaseCompagnie("Compagnie de distribution d'électricité", null, null, 150, 10, null));
+	case 12 : casesMonop.add(new CaseCompagnie("Compagnie de distribution d'électricité", null, null, 150, 15, null));
 	break;
 	case 13 : casesMonop.add(new CaseRue("Avenue de Neuilly", "Violet", null, 140, 14, null));
 	break;
@@ -71,7 +71,7 @@ for(i=0; i<=39; i=i+1) {
 	break;
 	case 27 : casesMonop.add(new CaseRue("Place de la Bourse", "Jaune", null, 260, 26, null));
 	break;
-	case 28 : casesMonop.add(new CaseCompagnie("Compagnie de distribution des eaux", null, null, 150, 10, null));
+	case 28 : casesMonop.add(new CaseCompagnie("Compagnie de distribution des eaux", null, null, 150, 15, null));
 	break;
 	case 29 : casesMonop.add(new CaseRue("Rue Lafayette", "Jaune", null, 280, 28, null));
 	break;

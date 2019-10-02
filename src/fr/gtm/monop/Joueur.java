@@ -19,6 +19,9 @@ public class Joueur {
 
 	public void debiter(int montant) {
 		solde = solde - montant;
+		if (solde < 0) {
+			System.out.println(Joueur.this.nomJoueur + " n'a plus d'argent");
+		}
 	}
 
 	public boolean isInterresse(int prix) {

@@ -27,7 +27,7 @@ public class Monopoly {
 
 		}
 
-		for (int i = 0; i < 10; i = i + 1) {
+		for (int i = 0; i < 100; i = i + 1) {
 			System.out.println("Tour numéro " + (i + 1));
 			System.out.println("");
 			System.out.println("");
