@@ -30,13 +30,17 @@ public class Monopoly {
 		int nbJoueurs = 4;
 		int i = 0;
 		while (nbJoueurs > 1) {
-
 			System.out.println("Tour numéro " + (i + 1));
 			// System.out.println("Tour numéro " + (i + 1));
 			System.out.println("");
 			System.out.println("");
 			i = i + 1;
 			for (Joueur j : joueurs) {
+				if(i>30000) {
+					System.out.println(j.nomJoueur + " entend kiss my ass et répond faisons comme ça et balance le plateau");
+					System.out.println("personne n'a gagné");
+					return;
+				}
 				if (j.joue == false) {
 					System.out.println(j.nomJoueur + " est éliminé");
 					System.out.println("");
