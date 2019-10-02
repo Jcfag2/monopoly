@@ -13,7 +13,7 @@ public class CaseGare extends CasePropriete {
 
 	@Override
 	public void arreter(Joueur j) {
-			if (CaseGare.this.proprietaire == null) {
+			if (CaseGare.this.proprietaire == null || CaseGare.this.proprietaire.solde < 0) {
 			if(j.isInterresse(prixAchat)) {
 				j.debiter(prixAchat);
 				CaseGare.this.proprietaire = j;

@@ -13,7 +13,7 @@ public class CaseCompagnie extends CasePropriete {
 
 	@Override
 	public void arreter(Joueur j) {
-		if (CaseCompagnie.this.proprietaire == null) {
+		if (CaseCompagnie.this.proprietaire == null|| CaseCompagnie.this.proprietaire.solde < 0) {
 		if(j.isInterresse(prixAchat)) {
 			j.debiter(prixAchat);
 			CaseCompagnie.this.proprietaire = j;
