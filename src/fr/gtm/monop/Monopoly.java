@@ -37,7 +37,7 @@ public class Monopoly {
 			i = i + 1;
 			for (Joueur j : joueurs) {
 				if(i>30000) {
-					System.out.println(j.nomJoueur + " entend kiss my ass et répond faisons comme ça et balance le plateau");
+					System.out.println(j.nomJoueur + " en a bien marre de cette partie de merde, il balance la table sur laquelle etait posé le plateau par la fenêtre.");
 					System.out.println("personne n'a gagné");
 					return;
 				}
